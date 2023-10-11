@@ -1,8 +1,4 @@
-
- *  main - program that prints the alphabet in lowercase and upper case
- *
- *  Return: Always 0.
- */
+#include <stdio.h>
 
 int main(void)
 {
@@ -13,6 +9,6 @@ putchar(letter);
 
 for (letter = A; letter <= Z; letter++)
 putchar(letter);
-putchar(n);
+putchar(\n);
 return (0);
 }
